@@ -41,7 +41,6 @@ a:hover {
     border-radius: 20px;
     margin: 20px 0px;
     text-align: center;
-    width: 580px;
     margin: 0 auto;
     margin-bottom: 10px;
 }
@@ -76,12 +75,18 @@ a:hover {
   text-decoration: none;
 }
 
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
   }
+
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
